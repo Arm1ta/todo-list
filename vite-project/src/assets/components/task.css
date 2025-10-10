@@ -1,0 +1,49 @@
+.task{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.circle, .blue{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 50%;
+    cursor: pointer;
+    flex-shrink: 0;   
+    margin-right: 10px;
+}
+    
+
+.blue{
+       background-color: rgb(172, 225, 240);
+}
+.checked-text {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.del-btn{
+    background-color: rgb(238, 73, 73);
+    color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.task > div {
+  display: flex;
+  align-items: center;
+}
+
+.task p {
+  word-break: break-word;
+  margin: 0;
+}
+
