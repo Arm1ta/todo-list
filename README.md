@@ -14,11 +14,4 @@ A simple and interactive **Todo List** application built with **React**, **JavaS
 - JavaScript (ES6+)
 - CSS for styling
 
-## Getting Started
 
-1. **Clone the repository:**
- - git clone https://github.com/Arm1ta/todo-list.git
- - cd todo-list
- 
-Notes:
-node_modules are excluded. Make sure to run npm install before starting the project.
